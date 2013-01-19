@@ -13,7 +13,9 @@
 	</p>
 
 	<p>
-		To get started, <a href="setup.php">click here to set up your QueueMetrics server</a>.
+		To get started, <a href="setup.php">click here to set up your QueueMetrics server</a>
+		and when done select one of the reports. Please check the XML-RPC manual to 
+		see what format is required for each parameter.
 	</p>
 
 	<div class="well">

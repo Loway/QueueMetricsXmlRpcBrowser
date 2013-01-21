@@ -56,8 +56,18 @@
               </li>
             </ul>
             <ul class="nav pull-right">
+<?php 
+  if ( strlen($qm_srv) == 0 ) {
+?>
+              <li><button class="btn btn-danger" onclick="javascript:location.href='setup.php'">Click here to configure the server</button></li>
+<?php
+  } else {
+?>
                 <li><a href="setup.php">User: <?= $qm_login ?> @ 
                     http://<?= $qm_srv ?>:<?= $qm_port ?>/<?= $qm_webapp ?></a></li>
+<?php
+  }
+?>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

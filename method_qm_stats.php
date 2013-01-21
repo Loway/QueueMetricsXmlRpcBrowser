@@ -49,26 +49,40 @@ function addValue() {
 
 <div class="span6">
     <label>Date from</label>
-    <input <?= nameVal("dtFrom") ?> type="text" placeholder="Format yyyy-mm-dd.hh:mm:ss">
+    <input <?= nameVal("dtFrom") ?> type="text" 
+           placeholder="Format yyyy-mm-dd.hh:mm:ss" 
+           class="input-xlarge">
     <label>Date to</label>
-    <input <?= nameVal("dtTo") ?> type="text" placeholder="Format yyyy-mm-dd.hh:mm:ss">
+    <input <?= nameVal("dtTo") ?> type="text" 
+          placeholder="Format yyyy-mm-dd.hh:mm:ss"
+          class="input-xlarge">
     <label>Agent filter</label>
-    <input <?= nameVal("agent") ?> type="text" placeholder="Type something…">
-    <span class="help-block">Example block-level help text here.</span>
-    <button type="submit" class="btn">Submit</button>
+    <input <?= nameVal("agent") ?> type="text" 
+          placeholder="Agent code, or leave blank" 
+          class="input-xlarge">
+    <br>
+    <!-- <span class="help-block">Example block-level help text here.</span> -->
+    <button type="submit" class="btn btn-primary btn-large">Run query</button>
 </div>
 <div class="span6">
     <label>Blocks</label>
-    <textarea name="blocks" id="blocks" placeholder="Type something…"><?= $_POST["blocks"] ?></textarea>
+    <textarea name="blocks" id="blocks" 
+           placeholder="Format: DO.method"
+           rows="6"
+           class="input-xlarge"><?= $_POST["blocks"] ?></textarea>
 
 <div class="input-append">
-  <input id="inputHelper" type="text" class="span3" style="margin: 0 auto;" data-provide="typeahead" data-items="4" data-source='[<?= dsOptions($qmstats_blocks) ?>]'>
+  <input id="inputHelper" type="text" class="span3" style="margin: 0 auto;" 
+  data-provide="typeahead" data-items="4" 
+  data-source='[<?= dsOptions($qmstats_blocks) ?>]'>
    
   <button class="btn" type="button" onclick="addValue();">Add</button>
 </div>
 
      <label>Queues (separate with a pipe)</label>
-     <input <?= nameVal("queues") ?> type="text" placeholder="Type something…">
+     <input <?= nameVal("queues") ?> type="text" 
+        placeholder="e.g A|B|C"
+        class="input-xlarge">
 </div>    
 </div>        
 

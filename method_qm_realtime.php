@@ -47,17 +47,23 @@ function addValue() {
 <div class="span6">
 
      <label>Queues (separate with a pipe)</label>
-     <input <?= nameVal("queues") ?> type="text" placeholder="e.g. 100|101">
+     <input <?= nameVal("queues") ?> type="text" 
+          class="input-xlarge" placeholder="e.g. 100|101">
 
     <label>Agent filter</label>
-    <input <?= nameVal("agent") ?> type="text" placeholder="e.g. Agent/103 or SIP/201">
+    <input <?= nameVal("agent") ?> type="text" 
+          class="input-xlarge" placeholder="e.g. Agent/103 or SIP/201">
 
     <p>
-    <button type="submit" class="btn">Submit</button>
+    <button type="submit" class="btn btn-primary btn-large">Run query</button>
 </div>
 <div class="span6">
     <label>Blocks</label>
-    <textarea name="blocks" id="blocks" placeholder="Type something…" rows="6"><?= $_POST["blocks"] ?></textarea>
+        <textarea name="blocks" id="blocks" 
+           placeholder="Format: DO.method"
+           rows="6"
+           class="input-xlarge"><?= $_POST["blocks"] ?></textarea>
+
 
 <div class="input-append">
   <input id="inputHelper" 

@@ -8,4 +8,10 @@ You need to have QueueMetrics reachable over its HTTP port from the server, of c
 
 Very initial release - at the moment only QM.stats() and QM.realtime() are implemented.
 
+Installation
+------------
 
+Just download the project over GIT (or as a Zip file) and uncompress it in a folder 
+under a webserver running PHP.
+
+No database connection used.

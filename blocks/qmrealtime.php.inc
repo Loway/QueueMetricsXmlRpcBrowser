@@ -1,6 +1,6 @@
 <?php
 
-// created manually - QM 12.10.4
+// created manually - QM 12.10.4 + QM 13.01
 
 $qmrealtime_blocks = array(
 	"RealTimeDO.RTRiassunto",
@@ -15,6 +15,8 @@ $qmrealtime_blocks = array(
 	"RealTimeDO.RtLiveCalls",    
 	"RealTimeDO.RtLiveAgents",    
 	"RealTimeDO.RtLIveStatus",    
+	"RealTimeDO.RtAgentsRaw", 
+	"RealTimeDO.RtCallsRaw", 
 );
 
 ?>

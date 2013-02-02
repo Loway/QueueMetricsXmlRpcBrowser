@@ -6,6 +6,8 @@
 
       <h1>Method: QM.findaudio</h1>
       <p>Finds audio recordings related to a call (given the call's unique-id)</p>
+      <p>If you want to test reading from the Xml-Rpc Audio Server, a sample server is available under <i>/servers</i> - edit it
+         to suit your needs and have QM point to it.</p> 
 
 <?php
 

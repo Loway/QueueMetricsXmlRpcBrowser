@@ -20,6 +20,7 @@ No database connection used.
 Changelog
 =========
 
-* Feb 2, 2013: Added QM.findAudio()
+* Feb 2, 2013: Added QM.findAudio() and added sample xmlrpc_audio_server.php under '/servers'
 * Jan 21, 2013: Initial release
+
 

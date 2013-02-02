@@ -51,9 +51,33 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a href="method_qm_stats.php">QM.stats</a></li>
-                  <li><a href="method_qm_realtime.php">QM.realtime</a></li>                  
+                  <li><a href="method_qm_realtime.php">QM.realtime</a></li>    
+                  <li><a href="method_qm_findaudio.php">QM.findAudio</a></li>              
                 </ul>                
               </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Users
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">QM.auth</a></li>
+                  <li><a href="#">QM.authenticate</a></li>                  
+                </ul>                
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  QA
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">QM.getQueuesForAgent</a></li>
+                  <li><a href="#">QM.getPauseCodesForAgent</a></li>                  
+                </ul>                
+              </li>
+
+
+
             </ul>
             <ul class="nav pull-right">
 <?php 

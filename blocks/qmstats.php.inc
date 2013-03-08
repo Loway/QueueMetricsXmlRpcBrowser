@@ -53,6 +53,9 @@ $qmstats_blocks = array(
     "DetailsDO.AfpCallsOK", 
     "DetailsDO.CallsOkRaw", 
     "DetailsDO.ButtonExportCalls", 
+    "DetailsDO.AfpCallsIVR",  // QM 13.03
+    "DetailsDO.CallsIVR",     // QM 13.03
+    "DetailsDO.CallsIvrRaw",  // QM 13.03
     "DistrDO.ReportAcd", 
     "DistrDO.AcdByQueue", 
     "DistrDO.AcdByTerminals", 
@@ -94,6 +97,9 @@ $qmstats_blocks = array(
     "OutcomesDO.AgentReportDetailed", 
 // -- end auto generated part
 
+    "IvrDO.IvrReport",
+    "IvrDO.IvrTiming",
+    "IvrDO.IvrGoals",
 );
 
 

@@ -16,7 +16,10 @@ $qmrealtime_blocks = array(
 	"RealTimeDO.RtLiveAgents",    
 	"RealTimeDO.RtLIveStatus",    
 	"RealTimeDO.RtAgentsRaw", 
-	"RealTimeDO.RtCallsRaw", 
+	"RealTimeDO.RtCallsRaw",
+	"RealTimeDO.QueuesAndTagsView", 
+	"RealTimeDO.QueuesAndTimesView", 
+	"RealTimeDO.AgentAndOutcomeView", 	
 );
 
 ?>
